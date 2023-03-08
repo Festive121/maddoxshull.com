@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#maddox {
+    background: -webkit-linear-gradient(#8300c4, #4c00a4);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 20vh;
+    font-size: 24vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#construction {
+    color: #e6e1f9;
+    position: relative;
+    top: 30vh;
+}
+
+#background {
+    background: -webkit-linear-gradient(#31004a, #000000);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
