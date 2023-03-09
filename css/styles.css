@@ -6,10 +6,10 @@ html, body {
 }
 
 #maddox {
-    background: -webkit-linear-gradient(#8300c4, #4c00a4);
+/*     background: -webkit-linear-gradient(#8300c4, #4c00a4);
     background-clip: border-box;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     position: relative;
     top: 20vh;
     font-size: 24vw;
@@ -26,10 +26,10 @@ html, body {
 }
 
 #background {
-    background: -webkit-linear-gradient(#31004a, #000000);
+/*     background: -webkit-linear-gradient(#31004a, #000000);
     background-clip: border-box;
     -webkit-background-clip: border-box;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     margin: 0;
     height: 100vh;
     width: 100%;
