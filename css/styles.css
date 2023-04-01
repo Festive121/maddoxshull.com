@@ -5,8 +5,9 @@ html, body {
 }
 
 body {
-    background-color: #31004a;
+    background-color: #8300c4;
     overflow-x: hidden;
+    min-width: 768px;
 }
 
 .image-title {
@@ -43,9 +44,10 @@ body {
 
 /* images */
 
-#gym {
+#fat {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
     gap: 10px;
     grid-auto-rows: 100px;
     grid-template-areas:
@@ -53,58 +55,202 @@ body {
       "b"
       "c";
     align-items: start;
+    position: relative;
+    top: 50vh;
+    left: 10vw;
 }
-.item1 {
+#fat-1 {
     grid-area: a;
+    text-align: center;
 }
-.item2 {
+#fat-2 {
     grid-area: b;
+    width: 25vw;
 }
-.item3 {
+#fat-3 {
     grid-area: c;
-}
-.item4 {
-    grid-area: d;
+    text-align: center;
 }
 
-#fattox {
+#gym {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
     position: relative;
-    left: 5vw;
-    width: 20vw;
-    top: 54vh;
-    height: auto;
+    top: 300vh;
+    left: 65vw;
 }
-#t-fattox {
-    position: relative;
-    top: 65vh;
-    left: 12.5vw;
-
-}
-#d-fattox {
-    top: 112vh;
-    right: 35vw;
-}
-
-/* #gym-1 {
+#gym-1 {
+    grid-area: a;
+    text-align: center;
 }
 #gym-2 {
-} */
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
 #gym-3 {
-    width: 20vw;
+    grid-area: c;
+    text-align: center;
+    
 }
 
-#laydox {
+#lay {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
     position: relative;
-    width: 20vw;
-    top: 4300px;
-    left: 100px;
+    top: 550vh;
+    left: 10vw;
 }
-#t-lay {
-    right: 1000px;
+#lay-1 {
+    grid-area: a;
+    text-align: center;
 }
-#d-lay {
-    top: 4930px;
-    right: 500px;
+#lay-2 {
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
+#lay-3 {
+    grid-area: c;
+    text-align: center;
+}
+
+#sit {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
+    position: relative;
+    top: 800vh;
+    left: 65vw;
+}
+#sit-1 {
+    grid-area: a;
+    text-align: center;
+}
+#sit-2 {
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
+#sit-3 {
+    grid-area: c;
+    text-align: center;
+}
+
+#back {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
+    position: relative;
+    top: 1050vh;
+    left: 10vw;
+}
+#back-1 {
+    grid-area: a;
+    text-align: center;
+}
+#back-2 {
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
+#back-3 {
+    grid-area: c;
+    text-align: center;
+}
+
+#backside {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
+    position: relative;
+    top: 1300vh;
+    left: 65vw;
+}
+#backside-1 {
+    grid-area: a;
+    text-align: center;
+}
+#backside-2 {
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
+#backside-3 {
+    grid-area: c;
+    text-align: center;
+}
+
+#weights {
+    display: grid;
+    grid-template-columns: repeat(1, 0.25fr);
+    grid-template-rows: 25px 1fr 100px;
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    align-items: start;
+    position: relative;
+    top: 1550vh;
+    left: 10vw;
+}
+#weights-1 {
+    grid-area: a;
+    text-align: center;
+}
+#weights-2 {
+    grid-area: b;
+    width: 25vw;
+    justify-self: center;
+    align-self: center;
+}
+#weights-3 {
+    grid-area: c;
+    text-align: center;
 }
 
 /* divs */
@@ -134,7 +280,7 @@ body {
 
 #images {
     margin: 0;
-    height: 1400vh;
+    height: 2500vh;
     width: 100vw;
     z-index: -1;
     background-color: #000;
