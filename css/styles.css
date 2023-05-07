@@ -2,23 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     width: 100%;
-}
-
-body {
-    background-color: #8300c4;
-    overflow-x: hidden;
-    min-width: 768px;
-}
-
-.image-title {
-    color: white;
-    position: relative;
-}
-
-.desc {
-    color: #fff;
-    text-align: center;
-    position: relative;
+    overflow: hidden;
 }
 
 #maddox {
@@ -33,258 +17,26 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    line-height: .8;
 }
 
-#memories {
+#construction {
+    color: #e6e1f9;
     position: relative;
-    bottom: 10vh;
-    color: #a31000;
-}
-
-/* images */
-
-#fat {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 50vh;
-    left: 10vw;
-}
-#fat-1 {
-    grid-area: a;
-    text-align: center;
-}
-#fat-2 {
-    grid-area: b;
-    width: 25vw;
-}
-#fat-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-#gym {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 300vh;
-    left: 65vw;
-}
-#gym-1 {
-    grid-area: a;
-    text-align: center;
-}
-#gym-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#gym-3 {
-    grid-area: c;
-    text-align: center;
-    
-}
-
-#lay {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 550vh;
-    left: 10vw;
-}
-#lay-1 {
-    grid-area: a;
-    text-align: center;
-}
-#lay-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#lay-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-#sit {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 800vh;
-    left: 65vw;
-}
-#sit-1 {
-    grid-area: a;
-    text-align: center;
-}
-#sit-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#sit-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-#back {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 1050vh;
-    left: 10vw;
-}
-#back-1 {
-    grid-area: a;
-    text-align: center;
-}
-#back-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#back-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-#backside {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 1300vh;
-    left: 65vw;
-}
-#backside-1 {
-    grid-area: a;
-    text-align: center;
-}
-#backside-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#backside-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-#weights {
-    display: grid;
-    grid-template-columns: repeat(1, 0.25fr);
-    grid-template-rows: 25px 1fr 100px;
-    gap: 10px;
-    grid-auto-rows: 100px;
-    grid-template-areas:
-      "a"
-      "b"
-      "c";
-    align-items: start;
-    position: relative;
-    top: 1550vh;
-    left: 10vw;
-}
-#weights-1 {
-    grid-area: a;
-    text-align: center;
-}
-#weights-2 {
-    grid-area: b;
-    width: 25vw;
-    justify-self: center;
-    align-self: center;
-}
-#weights-3 {
-    grid-area: c;
-    text-align: center;
-}
-
-/* divs */
-
-#space {
-    display: block;
-    width: 100vw;
-    height: 150vh;
-    position: relative;
+    top: 30vh;
 }
 
 #background {
-    background: -webkit-linear-gradient(#31004a, #000);
+    background: -webkit-linear-gradient(#31004a, #000000);
     background-clip: border-box;
     -webkit-background-clip: border-box;
     -webkit-text-fill-color: transparent;
     margin: 0;
-    height: 110vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     z-index: -1;
-}
-
-#images {
-    margin: 0;
-    height: 2500vh;
-    width: 100vw;
-    z-index: -1;
-    background-color: #000;
-    position: absolute;
-    background-clip: border-box;
-    top: 834px;
 }
