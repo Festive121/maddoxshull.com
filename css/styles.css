@@ -33,7 +33,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    line-height: .8;
+    line-height: 45vh;
 }
 
 #memories {
@@ -268,7 +268,7 @@ body {
     -webkit-background-clip: border-box;
     -webkit-text-fill-color: transparent;
     margin: 0;
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0px;
@@ -282,7 +282,7 @@ body {
     margin: 0;
     height: 2500vh;
     width: 100vw;
-    z-index: -1;
+    z-index: -2;
     background-color: #000;
     position: absolute;
     background-clip: border-box;
