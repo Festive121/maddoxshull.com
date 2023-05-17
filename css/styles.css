@@ -46,8 +46,9 @@ body {
 
 #celebrate {
     position: relative;
-    bottom: 1700vh;
-    color: #a31000;
+    top: 1700vh;
+    color: #fff;
+    text-align: center;
 }
 
 /* images */
@@ -240,11 +241,22 @@ body {
 
 #images {
     margin: 0;
-    height: 2500vh;
+    height: 2400vh;
     width: 100vw;
     z-index: -2;
     background-color: #000;
     position: absolute;
     background-clip: border-box;
     top: 600px;
+}
+
+#cards {
+    position: relative;
+    top: 1600vh;
+    height: 150vh;
+    background: -webkit-linear-gradient(#000, #4884b8);
+    background-clip: border-box;
+    -webkit-background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
 }
