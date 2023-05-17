@@ -49,6 +49,8 @@ body {
     top: 1700vh;
     color: #fff;
     text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
 }
 
 /* images */

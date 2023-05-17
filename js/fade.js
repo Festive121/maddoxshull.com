@@ -7,7 +7,7 @@ window.addEventListener('scroll', function() {
     var scaledScrollPosition = scrollPosition / windowHeight;
  
     // scale pos
-    // console.log('Scaled Scroll Position:', scaledScrollPosition);
+    console.log('Scaled Scroll Position:', scaledScrollPosition);
 
     if (scaledScrollPosition > 0.85 && count == 0) {
         $('#memories').css('opacity', 1);
@@ -47,5 +47,10 @@ window.addEventListener('scroll', function() {
     if (scaledScrollPosition > 20.6 && count == 7) {
         $('.weights').css('opacity', 1);
         count = 8;
+    };
+
+    if (scaledScrollPosition > 24.4 && count == 8) {
+        $('#celebrate').css('opacity', 1);
+        count = 9;
     };
 });
