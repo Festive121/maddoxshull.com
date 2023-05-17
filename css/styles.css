@@ -38,7 +38,7 @@ body {
 
 #memories {
     opacity: 0;
-    transition: opacity 2s ease-in-out;
+    transition: opacity .5s ease-in-out;
     position: relative;
     bottom: 10vh;
     color: #a31000;
@@ -68,7 +68,7 @@ body {
 
 .fat {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 50vh;
     left: 10vw;
 }
@@ -87,7 +87,7 @@ body {
 
 .gym {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 300vh;
     left: 65vw;
 }
@@ -109,7 +109,7 @@ body {
 
 .lay {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 550vh;
     left: 10vw;
 }
@@ -130,7 +130,7 @@ body {
 
 .sit {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 800vh;
     left: 65vw;
 }
@@ -151,7 +151,7 @@ body {
 
 .back {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 1050vh;
     left: 10vw;
 }
@@ -172,7 +172,7 @@ body {
 
 .backside {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 1300vh;
     left: 65vw;
 }
@@ -194,7 +194,7 @@ body {
 
 .weights {
     opacity: 0;
-    transition: opacity 5s ease-in-out;
+    transition: opacity 2s ease-in-out;
     top: 1550vh;
     left: 10vw;
 }
@@ -246,5 +246,5 @@ body {
     background-color: #000;
     position: absolute;
     background-clip: border-box;
-    top: 834px;
+    top: 600px;
 }
