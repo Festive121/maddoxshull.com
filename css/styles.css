@@ -21,6 +21,10 @@ body {
     position: relative;
 }
 
+.unhoverable {
+    pointer-events: none;
+}
+
 #maddox {
     background: -webkit-linear-gradient(#8300c4, #4c00a4);
     background-clip: border-box;
@@ -310,6 +314,14 @@ body {
     }
 }
 
+@keyframes tceles {
+    from {
+        transform: scale(1.25);
+    } to {
+        transform: scale(1);
+    }
+}
+
 #fatox-card {
     grid-area: a;
 }
@@ -387,4 +399,13 @@ body {
 }
 .pa {
     animation: reveal 1s cubic-bezier(0.42, 0, 0.58, 1) forwards 7s;
+}
+
+#sec {
+    position: fixed;
+    bottom: 0;
+  
+    /* And if you want the div to be full-width: */
+    left: 0;
+    right: 0;
 }

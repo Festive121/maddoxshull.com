@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
     var scaledScrollPosition = scrollPosition / windowHeight;
  
     // scale pos
-    console.log('Scaled Scroll Position:', scaledScrollPosition);
+    // console.log('Scaled Scroll Position:', scaledScrollPosition);
 
     if (scaledScrollPosition > 0.85 && count == 0) {
         $('#memories').css('opacity', 1);
@@ -59,22 +59,23 @@ window.addEventListener('scroll', function() {
     };
 
     if (flyIn && !done) { 
-        document.querySelector('#fatox-card').classList.add('fa');
-        document.querySelector('#gymdox-card').classList.add('ga');
-        document.querySelector('#laydox-card').classList.add('la');
-        document.querySelector('#sitox-card').classList.add('sa');
-        document.querySelector('#backox-card').classList.add('ba');
-        document.querySelector('#buttox-card').classList.add('bu');
-        document.querySelector('#preddox-card').classList.add('pa');
+        document.querySelector('#fatox-card').classList.add('fa', 'unhoverable');
+        document.querySelector('#gymdox-card').classList.add('ga', 'unhoverable');
+        document.querySelector('#laydox-card').classList.add('la', 'unhoverable');
+        document.querySelector('#sitox-card').classList.add('sa', 'unhoverable');
+        document.querySelector('#backox-card').classList.add('ba', 'unhoverable');
+        document.querySelector('#buttox-card').classList.add('bu', 'unhoverable');
+        document.querySelector('#preddox-card').classList.add('pa', 'unhoverable');
 
         this.setTimeout(function() {
-            document.querySelector('#fatox-card').classList.remove('fa');
-            document.querySelector('#gymdox-card').classList.remove('ga');
-            document.querySelector('#laydox-card').classList.remove('la');
-            document.querySelector('#sitox-card').classList.remove('sa');
-            document.querySelector('#backox-card').classList.remove('ba');
-            document.querySelector('#buttox-card').classList.remove('bu');
-            document.querySelector('#preddox-card').classList.remove('pa');
+            document.querySelector('#fatox-card').classList.remove('fa', 'unhoverable');
+            document.querySelector('#gymdox-card').classList.remove('ga', 'unhoverable');
+            document.querySelector('#laydox-card').classList.remove('la', 'unhoverable');
+            document.querySelector('#sitox-card').classList.remove('sa', 'unhoverable');
+            document.querySelector('#backox-card').classList.remove('ba', 'unhoverable');
+            document.querySelector('#buttox-card').classList.remove('bu', 'unhoverable');
+            document.querySelector('#preddox-card').classList.remove('pa', 'unhoverable');
+            
             document.getElementById('fatox-card').style.opacity = 1;
             document.getElementById('gymdox-card').style.opacity = 1;
             document.getElementById('laydox-card').style.opacity = 1;
@@ -82,6 +83,8 @@ window.addEventListener('scroll', function() {
             document.getElementById('backox-card').style.opacity = 1;
             document.getElementById('buttox-card').style.opacity = 1;
             document.getElementById('preddox-card').style.opacity = 1;
+
+            console.log("welcome to the end")
         }, 8000);
         done = true;
     }
