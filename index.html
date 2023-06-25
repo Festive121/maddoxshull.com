@@ -1,18 +1,122 @@
+<!--
+    * make it pokemon cards
+    * add a collection button to show your pokemon cards
+    * have a monthly spin for card (to keep viewers enagadged)
+    * submissions box
+    * option to buy packs of pokemon cards on the website
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <meta name="theme-color" content="#31004a">
     <title>❤️Maddox Fan Club❤️</title>
+    <script>
+        var isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+        if (isMobile) {
+          window.location.href = "/mobile.html";
+        }
+      </script>
     <link rel="stylesheet" type="text/css" href="css/styles.css"> 
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/ani.js"></script>
 </head>
 <body>
+    <p class="info">this is a preview release, cards are not collectable yet</p>
     <h1 class="text-center" id="maddox">Maddox.</h1>
-    <p class="text-center" id="construction">(under construction)</p>
+    <p id="version">version alpha.1</p>
+    <div id="space"></div>
     <div id="background"></div>
+    <h1 class="text-center" id="memories">Now lets take a trip down memory lane...</h1>
+    <div class="image-grid fat">
+        <h3 class="image-title" id="fat-1">Fattox</h3>
+        <p class="desc" id="fat-3">
+            As you can see here,<br>
+            Maddox is found to have not 1, not 2,<br>
+            but 3 chins in this photo.<br>
+        </p>
+        <img src="images/fatox.jpg" alt="fat" id="fat-2">
+    </div>
+    <div class="image-grid gym">
+        <h3 class="image-title" id="gym-1">Gymdox</h3>
+        <p class="desc" id="gym-3">
+            This photo shows just one<br>
+            of the many times maddox<br>
+            appears in the gym.
+        </p>
+        <img src="images/gym.jpg" alt="gym" id="gym-2">
+    </div>
+    <div class="image-grid lay">
+        <h3 class="image-title" id="lay-1">Laydox</h3>
+        <p class="desc" id="lay-3">
+            This photo shows maddox<br>
+            laying down on a bus<br>
+            for no apparent reason.
+        </p>
+        <img src="images/laying.jpg" alt="lay" id="lay-2">
+    </div>
+    <div class="image-grid sit">
+        <h3 class="image-title" id="sit-1">Sitox</h3>
+        <p class="desc" id="sit-3">
+            In this exibit, Maddox is<br>
+            found once again in a gym.<br>
+            A struggle is seen as he<br>
+            appears to be on a final rep.
+        </p>
+        <img src="images/sitting.jpg" alt="sit" id="sit-2">
+    </div>
+    <div class="image-grid back">
+        <h3 class="image-title" id="back-1">Backox</h3>
+        <p class="desc" id="back-3">
+            After a lot of hard work<br>
+            in the gym, Maddox likes<br>
+            to show off his gains from<br>
+            the day to all onlookers.
+        </p>
+        <img src="images/back.jpg" alt="back" id="back-2">
+    </div>
+    <div class="image-grid backside">
+        <h3 class="image-title" id="backside-1">Thickdox</h3>
+        <p class="desc" id="backside-3">
+            As people watch in awe,<br>
+            Thickdox never ceases to<br>
+            leave without signing a few autographs.
+        </p>
+        <img src="images/backside.jpg" alt="backside" id="backside-2">
+    </div>
+    <div class="image-grid weights">
+        <h3 class="image-title" id="weights-1">Preddox</h3>
+        <p class="desc" id="weights-3">
+            All creatures have a dark side.<br>
+            For Maddox, it is preying on the weak.<br>
+            This photo shows a live reaction of<br>
+            Maddox finding another victim. 
+        </p>
+        <img src="images/weights.jpg" alt="weights" id="weights-2">
+    </div>
+    <h1 id="celebrate">YOU COLLECTED A BUNCH OFF CARDDOXES!! (note these dont count yet..)</h1>
+    <div id="images"></div>
+    <div id="cards"></div>
+    <div class="card-grid">
+        <img src="images/cards/fatox.jpeg" alt="fatox-card" class="scaling" id="fatox-card">
+        <img src="images/cards/gymdox.jpeg" alt="gymdox-card" class="scaling" id="gymdox-card">
+        <img src="images/cards/laydox.jpeg" alt="laydox-card" class="scaling" id="laydox-card">
+        <img src="images/cards/sitox.jpeg" alt="sitox-card" class="scaling" id="sitox-card">
+        <img src="images/cards/backox.jpg" alt="backox-card" class="scaling" id="backox-card">
+        <img src="images/cards/buttox.jpg" alt="buttox-card" class="scaling" id="buttox-card">
+        <img src="images/cards/preddox.jpg" alt="preddox-card" class="scaling" id="preddox-card">
+    </div>
+    <div id="seccc">
+        <form id="secret">
+            <input type="text" id="fpass" />
+        </form>
+    </div>
+    <script src="js/secret.js"></script>
 </body>
 </html>
