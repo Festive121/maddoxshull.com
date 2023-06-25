@@ -1,11 +1,13 @@
-// this is a js function that will allow a user into the secret part of maddoxshull.com
-// idk why you went to here instead of just looking at the console
-// but ig everyone has a way of finding 
+// hi whoevers looking that this!
+// i really didn't think anyone would look at this but good for you
+// no cheat codes here but kinda cool idk
 
-function valForm() {
-    let x = document.forms["secret"]["fpass"].value;
-    if (x == "welcome to the end") {
-        alert("welcome to the end...");
-        return true;
+document.getElementById("secret").addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    var inputValue = document.getElementById("fpass").value;
+
+    if (inputValue === "i want more") {
+        window.location.href = "/secret.html";
     }
-}
+});

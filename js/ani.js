@@ -84,6 +84,8 @@ window.addEventListener('scroll', function() {
             document.getElementById('buttox-card').style.opacity = 1;
             document.getElementById('preddox-card').style.opacity = 1;
 
+            // if you came this far without answers look in secret.js
+            // do i have to spell it out for you?
             console.log("welcome to the end")
         }, 8000);
         done = true;
