@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5kY8MmAn5m4p+PVhlCy7UUhXAy9+FlHq57F1jll8il8=",
+  "Hash": "Vg50H9Rq6d19wXpsHlqpaqtJJI6t2fGdNq0KkRHxcAE=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\acc_fade.js",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "js/acc_fade.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\acc_fade.js"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\ani.js",

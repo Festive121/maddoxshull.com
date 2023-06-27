@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\acc_fade.js",
+      "PackagePath": "staticwebassets\\js\\acc_fade.js"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\ani.js",
       "PackagePath": "staticwebassets\\js\\ani.js"
     },
