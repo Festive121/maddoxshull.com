@@ -15,6 +15,14 @@ body {
     background: white;
     border-radius: 15px;
     box-shadow: 0px 0px 100000px 0px rgba(0,0,0,0.75);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 1s, z-index 0.5s;
+}
+
+.center.fade-in {
+    opacity: 1;
+    z-index: 1;
 }
 
 .center h1 {
