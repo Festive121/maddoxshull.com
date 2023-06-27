@@ -18653,11 +18653,6 @@
       "FilePath": "c:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.cshtml",
       "TargetPath": "wwwroot\\html\\login.cshtml",
       "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\sql.cshtml",
-      "TargetPath": "wwwroot\\html\\sql.cshtml",
-      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"

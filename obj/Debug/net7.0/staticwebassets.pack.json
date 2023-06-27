@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\.DS_Store",
+      "PackagePath": "staticwebassets\\.DS_Store"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\README.md",
       "PackagePath": "staticwebassets\\README.md"
     },
