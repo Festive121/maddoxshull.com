@@ -1,0 +1,121 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\README.md",
+      "PackagePath": "staticwebassets\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\favicon.jpg",
+      "PackagePath": "staticwebassets\\favicon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\mobile.html",
+      "PackagePath": "staticwebassets\\html\\mobile.html"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\secret.html",
+      "PackagePath": "staticwebassets\\html\\secret.html"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\back.jpg",
+      "PackagePath": "staticwebassets\\images\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\backside.jpg",
+      "PackagePath": "staticwebassets\\images\\backside.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\backox.jpg",
+      "PackagePath": "staticwebassets\\images\\cards\\backox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\buttox.jpg",
+      "PackagePath": "staticwebassets\\images\\cards\\buttox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\fatox.jpeg",
+      "PackagePath": "staticwebassets\\images\\cards\\fatox.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\gymdox.jpeg",
+      "PackagePath": "staticwebassets\\images\\cards\\gymdox.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\happyox.jpeg",
+      "PackagePath": "staticwebassets\\images\\cards\\happyox.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\laydox.jpeg",
+      "PackagePath": "staticwebassets\\images\\cards\\laydox.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\preddox.jpg",
+      "PackagePath": "staticwebassets\\images\\cards\\preddox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\sitox.jpeg",
+      "PackagePath": "staticwebassets\\images\\cards\\sitox.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\fatox.jpg",
+      "PackagePath": "staticwebassets\\images\\fatox.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\gym.jpg",
+      "PackagePath": "staticwebassets\\images\\gym.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\laying.jpg",
+      "PackagePath": "staticwebassets\\images\\laying.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\sitting.jpg",
+      "PackagePath": "staticwebassets\\images\\sitting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\weights.jpg",
+      "PackagePath": "staticwebassets\\images\\weights.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\ani.js",
+      "PackagePath": "staticwebassets\\js\\ani.js"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\secret.js",
+      "PackagePath": "staticwebassets\\js\\secret.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.website.props",
+      "PackagePath": "build\\website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.website.props",
+      "PackagePath": "buildMultiTargeting\\website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.website.props",
+      "PackagePath": "buildTransitive\\website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
