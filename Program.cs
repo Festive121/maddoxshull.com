@@ -20,6 +20,31 @@ app.MapGet("/", context =>
     return context.Response.SendFileAsync(filePath);
 });
 
+app.MapGet("/collection", async (context) =>
+{
+    await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/collection.cshtml"));
+
+    string? username = context.Request.Form["username"];
+
+    Console.WriteLine($"username: {username}");
+
+    await using var connection = context.RequestServices.GetService<MySqlConnection>();
+    await using var checkCommand = connection.CreateCommand();
+
+    checkCommand.CommandText = "SELECT * FROM test.user_cards_view WHERE username = @username";
+    checkCommand.Parameters.AddWithValue("@username", username);
+
+    using(MySqlDataReader reader = checkCommand.ExecuteReader())
+    {
+        while(await reader.ReadAsync())
+        {
+            // string? id = reader.GetString("cardid");
+            // string? src = reader.GetString("src");
+            await context.Response.WriteAsync($"<img id={reader.GetString("cardid")} src={reader.GetString("src")}></img>");
+        }
+    }
+});
+
 app.MapMethods("/login", new[] { "GET", "POST" }, LoginHandler);
 
 app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
@@ -98,8 +123,8 @@ async Task LoginHandler(HttpContext context)
 
         if (credentialsMatch)
         {
-            await context.Response.WriteAsync("good yes");
-            // context.Response.Redirect("/dashboard");
+            // await context.Response.WriteAsync("good yes");
+            context.Response.Redirect("/collection");
         }
         else
         {

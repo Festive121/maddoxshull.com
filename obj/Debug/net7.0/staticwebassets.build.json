@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AKQ9ta+K/rllpjHf3DpNqth5IaHG1gZs9HknV+YwuCg=",
+  "Hash": "JJL8LgrYjh7t/3yqenvX65R2R52Bku8NcZrf13h8Kwc=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\collection.cshtml",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "html/collection.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\html\\collection.cshtml"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.cshtml",
