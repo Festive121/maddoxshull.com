@@ -1,0 +1,21 @@
+#hello {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+#hello p {
+    font-size: larger;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+#welcome-message {
+    font-weight: normal;
+}

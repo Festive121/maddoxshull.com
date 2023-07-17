@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JJL8LgrYjh7t/3yqenvX65R2R52Bku8NcZrf13h8Kwc=",
+  "Hash": "Ci0Nx7o8PWcTtMMUBuIQM+aPR3TW6ZHqg3VBRR/VlyU=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\account.css"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\error_login.css",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "css/error_login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\error_login.css"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\home.css",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\login.css",
@@ -119,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\html\\collection.cshtml"
     },
     {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\home.html",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "html/home.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\home.html"
+    },
+    {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.cshtml",
       "SourceId": "website",
       "SourceType": "Discovered",
@@ -185,6 +236,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "wwwroot\\html\\signup.cshtml"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\test.html",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "html/test.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\test.html"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\back.jpg",
@@ -493,6 +561,23 @@
       "OriginalItemSpec": "wwwroot\\js\\ani.js"
     },
     {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\login_error.js",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "js/login_error.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login_error.js"
+    },
+    {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\secret.js",
       "SourceId": "website",
       "SourceType": "Discovered",
@@ -508,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\secret.js"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\user_cookie.js",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "js/user_cookie.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\user_cookie.js"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\README.md",

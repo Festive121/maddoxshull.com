@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\error_login.css",
+      "PackagePath": "staticwebassets\\css\\error_login.css"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
@@ -25,12 +33,20 @@
       "PackagePath": "staticwebassets\\favicon.jpg"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\home.html",
+      "PackagePath": "staticwebassets\\html\\home.html"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\mobile.html",
       "PackagePath": "staticwebassets\\html\\mobile.html"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\secret.html",
       "PackagePath": "staticwebassets\\html\\secret.html"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\test.html",
+      "PackagePath": "staticwebassets\\html\\test.html"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\back.jpg",
@@ -105,8 +121,16 @@
       "PackagePath": "staticwebassets\\js\\ani.js"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\login_error.js",
+      "PackagePath": "staticwebassets\\js\\login_error.js"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\secret.js",
       "PackagePath": "staticwebassets\\js\\secret.js"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\user_cookie.js",
+      "PackagePath": "staticwebassets\\js\\user_cookie.js"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.website.props",

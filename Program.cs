@@ -16,8 +16,18 @@ app.UseStaticFiles();
 
 app.MapGet("/", context =>
 {
-    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "index.html");
-    return context.Response.SendFileAsync(filePath);
+    if (context.Request.Cookies.TryGetValue("username", out _))
+    {
+        // If the username cookie exists, redirect the user to the /home page
+        context.Response.Redirect("/home");
+        return Task.CompletedTask;
+    }
+    else
+    {
+        // If the username cookie doesn't exist, return the default index.html file
+        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "index.html");
+        return context.Response.SendFileAsync(filePath);
+    }
 });
 
 app.MapGet("/collection", async (context) =>
@@ -44,6 +54,36 @@ app.MapGet("/collection", async (context) =>
         }
     }
 });
+
+app.MapGet("/home", async (context) =>
+{
+    if (context.Request.Cookies.TryGetValue("username", out _))
+    {
+        await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/home.html"));
+
+        string username = context.Request.Cookies["username"];
+
+        await using var connection = context.RequestServices.GetService<MySqlConnection>();
+        await using var command = connection.CreateCommand();
+
+        command.CommandText = "SELECT * FROM user_cards_view WHERE username = @username";
+        command.Parameters.AddWithValue("@username", username);
+
+        await using var reader = await command.ExecuteReaderAsync();
+
+        while (await reader.ReadAsync())
+        {
+            string cardId = reader.GetString("cardid");
+            string src = reader.GetString("src");
+            await context.Response.WriteAsync($"<img id='{cardId}' src='{src}'></img>");
+        }
+    }
+    else
+    {
+        context.Response.Redirect("/login");
+    }
+});
+
 
 app.MapMethods("/login", new[] { "GET", "POST" }, LoginHandler);
 
@@ -123,13 +163,13 @@ async Task LoginHandler(HttpContext context)
 
         if (credentialsMatch)
         {
-            // await context.Response.WriteAsync("good yes");
-            context.Response.Redirect("/collection");
+            // await context.Response.WriteAsync("login accepted");
+            context.Response.Cookies.Append("username", username); // Store the username in a cookie
+            context.Response.Redirect("/home");
         }
         else
         {
-            await context.Response.WriteAsync("bad no");
-            // context.Response.Redirect("/login?error=1"); 
+            context.Response.Redirect("/login?error=1");
         }
     }
     else

@@ -1,0 +1,33 @@
+#error-message {
+    position: relative;
+    top: 60%;
+
+    background-color: #bf2425;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    z-index: -2;
+}
+
+#error-message.animate {
+    top: 70%; /* Move down by 10px */
+}
+
+#err {
+    height: 35px;
+    position: inherit;
+    bottom: 2.5px;
+    right: 125px
+}
+
+#text {
+    position: relative;
+    left: 20px;
+    bottom: 33px;
+}
