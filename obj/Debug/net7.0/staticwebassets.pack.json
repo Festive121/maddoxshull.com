@@ -37,12 +37,20 @@
       "PackagePath": "staticwebassets\\html\\home.html"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.html",
+      "PackagePath": "staticwebassets\\html\\login.html"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\mobile.html",
       "PackagePath": "staticwebassets\\html\\mobile.html"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\secret.html",
       "PackagePath": "staticwebassets\\html\\secret.html"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\signup.html",
+      "PackagePath": "staticwebassets\\html\\signup.html"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\test.html",
@@ -99,6 +107,14 @@
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\laying.jpg",
       "PackagePath": "staticwebassets\\images\\laying.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\profile.JPG",
+      "PackagePath": "staticwebassets\\images\\mm\\profile.JPG"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\other\\err.png",
+      "PackagePath": "staticwebassets\\images\\other\\err.png"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\sitting.jpg",

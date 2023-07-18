@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ci0Nx7o8PWcTtMMUBuIQM+aPR3TW6ZHqg3VBRR/VlyU=",
+  "Hash": "PFyg/MZTc/UVKuhKMjMMRyHpFV8bbm1Vzr2lOQnFRzg=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -170,21 +170,21 @@
       "OriginalItemSpec": "wwwroot\\html\\home.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.cshtml",
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.html",
       "SourceId": "website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
       "BasePath": "_content/website",
-      "RelativePath": "html/login.cshtml",
-      "AssetKind": "Build",
+      "RelativePath": "html/login.html",
+      "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot\\html\\login.cshtml"
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\login.html"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\mobile.html",
@@ -221,21 +221,21 @@
       "OriginalItemSpec": "wwwroot\\html\\secret.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\signup.cshtml",
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\signup.html",
       "SourceId": "website",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
       "BasePath": "_content/website",
-      "RelativePath": "html/signup.cshtml",
-      "AssetKind": "Build",
+      "RelativePath": "html/signup.html",
+      "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "wwwroot\\html\\signup.cshtml"
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\signup.html"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\test.html",
@@ -474,6 +474,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\laying.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\profile.JPG",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "images/mm/profile.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mm\\profile.JPG"
+    },
+    {
+      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\other\\err.png",
+      "SourceId": "website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "BasePath": "_content/website",
+      "RelativePath": "images/other/err.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\other\\err.png"
     },
     {
       "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\sitting.jpg",
