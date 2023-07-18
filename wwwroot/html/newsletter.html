@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #error-message {
+            position: relative;
+            top: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <p>join the registry for 1 card every month</p>
+    <div>
+        <form action="/Newsletter/SubscribeToNewsletter" method="post">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p id="error-message">email is already in the system</p>
+    </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var urlParams = new URLSearchParams(window.location.search);
+            var error = urlParams.get('error');
+            if (error) {
+                const errorMessage = document.getElementById('error-message');
+                errorMessage.style.display = 'block';
+                setTimeout(() => {
+                    errorMessage.style.display = 'none';
+                }, 5000);
+            }
+        });
+    </script>
+</body>
+</html>

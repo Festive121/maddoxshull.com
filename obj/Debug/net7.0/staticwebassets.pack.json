@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\html\\mobile.html"
     },
     {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\newsletter.html",
+      "PackagePath": "staticwebassets\\html\\newsletter.html"
+    },
+    {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\secret.html",
       "PackagePath": "staticwebassets\\html\\secret.html"
     },
@@ -109,8 +113,28 @@
       "PackagePath": "staticwebassets\\images\\laying.jpg"
     },
     {
-      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\profile.JPG",
-      "PackagePath": "staticwebassets\\images\\mm\\profile.JPG"
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\achievements.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\achievements.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\edit_deck.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\edit_deck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\newsletter.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\newsletter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\play.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\play.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\settings.jpg",
+      "PackagePath": "staticwebassets\\images\\mm\\settings.jpg"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\other\\err.png",
@@ -135,6 +159,10 @@
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\ani.js",
       "PackagePath": "staticwebassets\\js\\ani.js"
+    },
+    {
+      "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
       "Id": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\login_error.js",

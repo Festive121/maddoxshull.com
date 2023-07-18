@@ -27,5 +27,3 @@ C:\Users\admin01\Documents\code\website\obj\Debug\net7.0\ref\website.dll
 C:\Users\admin01\Documents\code\website\bin\Debug\net7.0\website.staticwebassets.runtime.json
 C:\Users\admin01\Documents\code\website\bin\Debug\net7.0\MySqlConnector.dll
 C:\Users\admin01\Documents\code\website\obj\Debug\net7.0\website.csproj.CopyComplete
-C:\Users\admin01\Documents\code\website\obj\Debug\net7.0\website.RazorAssemblyInfo.cache
-C:\Users\admin01\Documents\code\website\obj\Debug\net7.0\website.RazorAssemblyInfo.cs

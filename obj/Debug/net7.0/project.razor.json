@@ -18643,12 +18643,6 @@
     "CSharpLanguageVersion": 1100
   },
   "RootNamespace": "website",
-  "Documents": [
-    {
-      "FilePath": "c:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\collection.cshtml",
-      "TargetPath": "wwwroot\\html\\collection.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.3"
 }

@@ -27,34 +27,6 @@ app.MapGet("/", context =>
     }
 });
 
-app.MapGet("/collection", async (context) =>
-{
-    await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/collection.cshtml"));
-
-    string? username = context.Request.Form["username"];
-
-    Console.WriteLine($"username: {username}");
-
-    await using var connection = context.RequestServices.GetService<MySqlConnection>();
-
-    if (connection != null) {
-        await using var checkCommand = connection.CreateCommand();
-
-        checkCommand.CommandText = "SELECT * FROM test.user_cards_view WHERE username = @username";
-        checkCommand.Parameters.AddWithValue("@username", username);
-
-        using(MySqlDataReader reader = checkCommand.ExecuteReader()) {
-            while(await reader.ReadAsync()) {
-                // string? id = reader.GetString("cardid");
-                // string? src = reader.GetString("src");
-                await context.Response.WriteAsync($"<img id={reader.GetString("cardid")} src={reader.GetString("src")}></img>");
-            }
-        }
-    } else {
-        Console.WriteLine($"[{DateTime.Now}] Connection from [COLLECTION] is null");
-    }
-});
-
 app.MapGet("/home", async (context) => 
 {
     if (context.Request.Cookies.TryGetValue("username", out _)) {
@@ -83,7 +55,6 @@ app.MapGet("/home", async (context) =>
         context.Response.Redirect("/login");
     }
 });
-
 
 app.MapMethods("/login", new[] { "GET", "POST" }, LoginHandler);
 
@@ -139,6 +110,66 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
     }
 });
 
+app.MapGet("/newsletter", async (context) =>
+{
+    if (context.Request.Cookies.TryGetValue("username", out _)) {
+        await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/newsletter.html"));
+    } else {
+        context.Response.Redirect("/login");
+    }
+});
+
+app.MapPost("/Newsletter/SubscribeToNewsletter", async (context) =>
+{
+    string? email = context.Request.Form["email"];
+    string? username = context.Request.Cookies["username"];
+
+    await using var connection = context.RequestServices.GetService<MySqlConnection>();
+
+    if (connection != null)
+    {
+        await connection.OpenAsync();
+
+        using (var command = connection.CreateCommand())
+        {
+            command.CommandText = "SELECT COUNT(*) FROM newsletter WHERE email = @email";
+            command.Parameters.AddWithValue("@email", email);
+
+            int existingEmailCount = Convert.ToInt32(await command.ExecuteScalarAsync());
+
+            if (existingEmailCount > 0)
+            {
+                context.Response.StatusCode = 400; // Bad Request
+                context.Response.Redirect("/newsletter?error=2");
+                return;
+            }
+
+            // Email does not exist, insert the new subscription
+            command.CommandText = "INSERT INTO newsletter (email, username) VALUES (@email, @username)";
+            command.Parameters.AddWithValue("@username", username);
+
+            int rowsAffected = await command.ExecuteNonQueryAsync();
+
+            if (rowsAffected > 0)
+            {
+                context.Response.StatusCode = 200;
+                context.Response.Redirect("/home?subscribed=true");
+                Console.WriteLine($"[{DateTime.Now}] {username} subscribed to the newsletter.");
+            }
+            else
+            {
+                context.Response.StatusCode = 500;
+                await context.Response.WriteAsync("Subscription failed.");
+            }
+        }
+    }
+    else
+    {
+        Console.WriteLine($"[{DateTime.Now}] Connection from [NEWSLETTER] is null");
+    }
+});
+
+
 async Task LoginHandler(HttpContext context)
 {
     if (context.Request.Method == "GET") {
@@ -172,7 +203,9 @@ async Task LoginHandler(HttpContext context)
 
 async Task<bool> ValidateCredentialsAsync(HttpContext context, string username, string password)
 {
-    using (var connection = context.RequestServices.GetService<MySqlConnection>()) {
+    await using var connection = context.RequestServices.GetService<MySqlConnection>();
+
+    if (connection != null) {
         await connection.OpenAsync();
         using (var command = connection.CreateCommand()) {
             command.CommandText = "SELECT COUNT(*) FROM users WHERE username = @username AND pass = @password";
@@ -184,9 +217,12 @@ async Task<bool> ValidateCredentialsAsync(HttpContext context, string username, 
 
             return count > 0;
         }
+    } else {
+        Console.WriteLine($"[{DateTime.Now}] Connection from [VALIDATE] is null");
     }
-}
 
+    return false;
+}
 
 
 app.Run();

@@ -1,18 +1,16 @@
 @keyframes moveDown {
     0% {
-      top: 60%;
-      opacity: 0;
-    }
-    55% {
+        top: 60%;
+        opacity: 0;
+    } 55% {
         opacity: 0%;
+    } 100% {
+        top: 65%;
+        opacity: 100%;
     }
-    100% {
-      top: 65%;
-      opacity: 100%;
-    }
-  }
-  
-  #error-message {
+}
+
+#error-message {
     opacity: 0;
     position: relative;
     top: 60%;
@@ -23,13 +21,13 @@
     border-radius: 10px;
     height: 50px;
     width: 300px;
-    margin-left: auto; 
-    margin-right: auto; 
-    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     z-index: 0;
     display: none;
 }
-  
+
 #error-message.move-down {
     animation: moveDown 0.5s ease-in-out forwards;
 }
