@@ -297,8 +297,8 @@ body {
 
 #cards {
     position: relative;
-    top: 1600vh;
-    height: 150vh;
+    top: 1610vh;
+    height: 300vh;
     background: -webkit-linear-gradient(#000, #4884b8);
     background-clip: border-box;
     -webkit-background-clip: border-box;
@@ -318,11 +318,11 @@ body {
     align-items: start;
     position: relative;
     top: 1560vh;
-    left: 13vw;
+    left: 6vw;
 }
 
 .scaling {
-    width: 10vw;
+    width: 12vw;
     position: relative;
     opacity: 0;
 }
@@ -433,11 +433,9 @@ body {
 }
 
 #seccc {
-    position: fixed;
+    position: static;
     bottom: 0;
-  
     left: 0;
-    right: 0;
 }
 
 #create_account {

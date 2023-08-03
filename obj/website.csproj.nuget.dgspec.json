@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin01\\Documents\\code\\website\\website.csproj": {}
+    "/Users/jald/websites/maddoxshull.com/website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin01\\Documents\\code\\website\\website.csproj": {
+    "/Users/jald/websites/maddoxshull.com/website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin01\\Documents\\code\\website\\website.csproj",
+        "projectUniqueName": "/Users/jald/websites/maddoxshull.com/website.csproj",
         "projectName": "website",
-        "projectPath": "C:\\Users\\admin01\\Documents\\code\\website\\website.csproj",
-        "packagesPath": "C:\\Users\\admin01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin01\\Documents\\code\\website\\obj\\",
+        "projectPath": "/Users/jald/websites/maddoxshull.com/website.csproj",
+        "packagesPath": "/Users/jald/.nuget/packages/",
+        "outputPath": "/Users/jald/websites/maddoxshull.com/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin01\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jald/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.305\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }

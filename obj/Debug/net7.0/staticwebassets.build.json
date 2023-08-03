@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UCK6w5ddgTix9Fe2x2Z39knBCdwwvSistqfpkOKDckQ=",
+  "Hash": "UHvKKDbsYnituMkoX9AM2k4ryS7cEdIP4T8bMvDXhBk=",
   "Source": "website",
   "BasePath": "_content/website",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "website\\wwwroot",
+      "Name": "website/wwwroot",
       "Source": "website",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\.DS_Store",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/.DS_Store",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\.DS_Store"
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\account.css",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/css/account.css",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "css/account.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\account.css"
+      "OriginalItemSpec": "wwwroot/css/account.css"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\error_login.css",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/css/error_login.css",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "css/error_login.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\error_login.css"
+      "OriginalItemSpec": "wwwroot/css/error_login.css"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\home.css",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/css/home.css",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\home.css"
+      "OriginalItemSpec": "wwwroot/css/home.css"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\login.css",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/css/login.css",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\login.css"
+      "OriginalItemSpec": "wwwroot/css/login.css"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\css\\styles.css",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/css/styles.css",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+      "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\favicon.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/favicon.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "favicon.jpg",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.jpg"
+      "OriginalItemSpec": "wwwroot/favicon.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\home.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/home.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/home.html",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\home.html"
+      "OriginalItemSpec": "wwwroot/html/home.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\login.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/login.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/login.html",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\login.html"
+      "OriginalItemSpec": "wwwroot/html/login.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\mobile.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/mobile.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/mobile.html",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\mobile.html"
+      "OriginalItemSpec": "wwwroot/html/mobile.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\newsletter.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/newsletter.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/newsletter.html",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\newsletter.html"
+      "OriginalItemSpec": "wwwroot/html/newsletter.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\secret.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/secret.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/secret.html",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\secret.html"
+      "OriginalItemSpec": "wwwroot/html/secret.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\signup.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/signup.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/signup.html",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\signup.html"
+      "OriginalItemSpec": "wwwroot/html/signup.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\html\\test.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/html/test.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "html/test.html",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\html\\test.html"
+      "OriginalItemSpec": "wwwroot/html/test.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\back.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/back.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/back.jpg",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\back.jpg"
+      "OriginalItemSpec": "wwwroot/images/back.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\backside.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/backside.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/backside.jpg",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\backside.jpg"
+      "OriginalItemSpec": "wwwroot/images/backside.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\backox.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/backox.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/backox.jpg",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\backox.jpg"
+      "OriginalItemSpec": "wwwroot/images/cards/backox.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\buttox.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/buttox.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/buttox.jpg",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\buttox.jpg"
+      "OriginalItemSpec": "wwwroot/images/cards/buttox.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\fatox.jpeg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/fatox.jpeg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/fatox.jpeg",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\fatox.jpeg"
+      "OriginalItemSpec": "wwwroot/images/cards/fatox.jpeg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\gymdox.jpeg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/gymdox.jpeg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/gymdox.jpeg",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\gymdox.jpeg"
+      "OriginalItemSpec": "wwwroot/images/cards/gymdox.jpeg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\happyox.jpeg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/happyox.jpeg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/happyox.jpeg",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\happyox.jpeg"
+      "OriginalItemSpec": "wwwroot/images/cards/happyox.jpeg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\laydox.jpeg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/laydox.jpeg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/laydox.jpeg",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\laydox.jpeg"
+      "OriginalItemSpec": "wwwroot/images/cards/laydox.jpeg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\preddox.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/preddox.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/preddox.jpg",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\preddox.jpg"
+      "OriginalItemSpec": "wwwroot/images/cards/preddox.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\cards\\sitox.jpeg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/cards/sitox.jpeg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/cards/sitox.jpeg",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cards\\sitox.jpeg"
+      "OriginalItemSpec": "wwwroot/images/cards/sitox.jpeg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\fatox.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/fatox.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/fatox.jpg",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\fatox.jpg"
+      "OriginalItemSpec": "wwwroot/images/fatox.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\gym.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/gym.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/gym.jpg",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\gym.jpg"
+      "OriginalItemSpec": "wwwroot/images/gym.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\laying.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/laying.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/laying.jpg",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\laying.jpg"
+      "OriginalItemSpec": "wwwroot/images/laying.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\achievements.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/achievements.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/mm/achievements.jpg",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\achievements.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/achievements.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\edit_deck.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/edit_deck.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/mm/edit_deck.jpg",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\edit_deck.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/edit_deck.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\newsletter.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/newsletter.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/mm/newsletter.jpg",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\newsletter.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/newsletter.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\play.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/play.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/mm/play.jpg",
       "AssetKind": "All",
@@ -541,15 +541,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\play.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/play.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\profile.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/profile.JPG",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
-      "RelativePath": "images/mm/profile.jpg",
+      "RelativePath": "images/mm/profile.JPG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\profile.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/profile.JPG"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\mm\\settings.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/mm/settings.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/mm/settings.jpg",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mm\\settings.jpg"
+      "OriginalItemSpec": "wwwroot/images/mm/settings.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\other\\err.png",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/other/err.png",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/other/err.png",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\other\\err.png"
+      "OriginalItemSpec": "wwwroot/images/other/err.png"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\sitting.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/sitting.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/sitting.jpg",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\sitting.jpg"
+      "OriginalItemSpec": "wwwroot/images/sitting.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\images\\weights.jpg",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/images/weights.jpg",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "images/weights.jpg",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\weights.jpg"
+      "OriginalItemSpec": "wwwroot/images/weights.jpg"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\index.html",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/index.html",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\acc_fade.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/acc_fade.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/acc_fade.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\acc_fade.js"
+      "OriginalItemSpec": "wwwroot/js/acc_fade.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\ani.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/ani.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/ani.js",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\ani.js"
+      "OriginalItemSpec": "wwwroot/js/ani.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\home.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/home.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/home.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\home.js"
+      "OriginalItemSpec": "wwwroot/js/home.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\login_error.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/login_error.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/login_error.js",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\login_error.js"
+      "OriginalItemSpec": "wwwroot/js/login_error.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\secret.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/secret.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/secret.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\secret.js"
+      "OriginalItemSpec": "wwwroot/js/secret.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\js\\user_cookie.js",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/js/user_cookie.js",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "js/user_cookie.js",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\user_cookie.js"
+      "OriginalItemSpec": "wwwroot/js/user_cookie.js"
     },
     {
-      "Identity": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\README.md",
+      "Identity": "/Users/jald/websites/maddoxshull.com/wwwroot/README.md",
       "SourceId": "website",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\admin01\\Documents\\code\\website\\wwwroot\\",
+      "ContentRoot": "/Users/jald/websites/maddoxshull.com/wwwroot/",
       "BasePath": "_content/website",
       "RelativePath": "README.md",
       "AssetKind": "All",
@@ -762,7 +762,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\README.md"
+      "OriginalItemSpec": "wwwroot/README.md"
     }
   ]
 }
