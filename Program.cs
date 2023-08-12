@@ -169,10 +169,22 @@ app.MapPost("/Newsletter/SubscribeToNewsletter", async (context) =>
     }
 });
 
+app.MapMethods("/editdeck", new[] { "GET", "POST" }, async (context) =>
+{
+    if (context.Request.Method == "GET") 
+    {
+        await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/edit_deck.html"));
+    } else if (context.Request.Method == "POST") {
+        // post
+    } else {
+        context.Response.StatusCode = 405;
+    }
+});
 
 async Task LoginHandler(HttpContext context)
 {
-    if (context.Request.Method == "GET") {
+    if (context.Request.Method == "GET") 
+    {
         // Handle GET request, show the login form
         await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/login.html"));
     } else if (context.Request.Method == "POST") {
