@@ -419,3 +419,14 @@ body {
     left: 0;
     right: 0;
 }
+
+#updates {
+    z-index: 1;
+    position: relative;
+    top: 19vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: block;
+}
+
