@@ -5,9 +5,9 @@
 document.getElementById("secret").addEventListener("submit", function (event) {
     event.preventDefault();
 
-    let inputValue = document.getElementById("fpass").value;
+    var inputValue = document.getElementById("fpass").value;
 
     if (inputValue === "i want more") {
-        window.location.href = "/secret";
+        window.location.href = "/secret.html";
     }
 });
