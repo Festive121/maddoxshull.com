@@ -6,11 +6,11 @@
                 "enableSsl": "Disabled"
             },
             "previewLimit": 50,
-            "server": "localhost",
+            "server": "206.189.176.42",
             "port": 3306,
             "driver": "MySQL",
-            "name": "MySQL Local",
-            "database": "test",
+            "name": "sql",
+            "database": "maddox",
             "username": "root"
         }
     ]
