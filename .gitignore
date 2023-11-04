@@ -1,2 +1,4 @@
 docker_run.txt
 sql.session.sql
+**/obj/
+**/bin/
