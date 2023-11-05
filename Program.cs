@@ -205,11 +205,51 @@ app.MapPost("/Newsletter/SubscribeToNewsletter", async (context) =>
     }
 });
 
-app.MapMethods("/editdeck", new[] { "GET", "POST" }, async (context) =>
+app.MapMethods("/edit-deck", new[] { "GET", "POST" }, async (HttpContext context) =>
 {
     if (context.Request.Method == "GET") 
     {
-        await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/edit_deck.html"));
+        var username = context.Request.Cookies["username"];
+
+        await using var connection = context.RequestServices.GetService<MySqlConnection>();
+
+        if (connection != null) {
+            await connection.OpenAsync();
+
+            var checkId = connection.CreateCommand();
+            checkId.CommandText = "SELECT id FROM users WHERE username = @username";
+            checkId.Parameters.AddWithValue("@username", username);
+
+            var userId = await checkId.ExecuteScalarAsync();
+
+            string query = "SELECT card_id FROM user_cards WHERE user_id = @userId";
+
+            using (var command = new MySqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@userId", userId);
+                using (var reader = await command.ExecuteReaderAsync())
+                {
+                    while (await reader.ReadAsync())
+                    {
+                        string cardId = reader.GetString(0);  // Assuming card_id is an integer
+                        Console.WriteLine(cardId);
+                    }
+                }
+            }
+
+            Console.WriteLine(query);
+            Console.WriteLine(userId);
+
+            // var command = connection.CreateCommand();
+            // command.CommandText = "SELECT COUNT(*) FROM user_cards WHERE user_id = @userId AND card_id = @cardId";
+            // command.Parameters.AddWithValue("@userId", userId);
+            // command.Parameters.AddWithValue("@cardId", cardId);
+
+            // var count = await command.ExecuteScalarAsync();
+            // var isUnlocked = count != null && (long)count > 0;
+
+            // return Results.Json(new { IsUnlocked = isUnlocked });
+        }
     } else if (context.Request.Method == "POST") {
         // post
     } else {
