@@ -8,6 +8,6 @@ document.getElementById("secret").addEventListener("submit", function (event) {
     var inputValue = document.getElementById("fpass").value;
 
     if (inputValue === "i want more") {
-        window.location.href = "/html/secret.html";
+        window.location.href = "/secret";
     }
 });

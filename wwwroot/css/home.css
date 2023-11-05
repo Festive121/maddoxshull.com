@@ -14,11 +14,6 @@
     margin-right: auto;
     text-align: center;
     z-index: 1;
-    display: none;
-    animation-name: subIn;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
 }
 
 .subIn {

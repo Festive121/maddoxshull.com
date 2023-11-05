@@ -43,7 +43,7 @@ app.MapGet("/home", async (context) =>
             await connection.OpenAsync(); // open the connection
             await using var command = connection.CreateCommand();
 
-            command.CommandText = "SELECT COUNT(*) FROM test.users WHERE username = @username";
+            command.CommandText = "SELECT COUNT(*) FROM users WHERE username = @username";
             command.Parameters.AddWithValue("@username", username);
 
             int userCount = Convert.ToInt32(await command.ExecuteScalarAsync());
@@ -105,6 +105,7 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
             int rowsAffected = await insertCommand.ExecuteNonQueryAsync();
 
             // Add default cards to user's deck
+
             string query = @"
                 INSERT INTO user_cards (user_id, card_id)
                 VALUES 
@@ -114,8 +115,14 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
                 (@userId, 4), 
                 (@userId, 5), 
                 (@userId, 6), 
-                (@userId, 7);
+                (@userId, 7)
             ";
+
+            if (context.Request.Cookies["SECRET"] == "true") {
+                query += ",(@userId, 8);";
+            } else {
+                query += ";";
+            }
 
             long userId = insertCommand.LastInsertedId;
 
@@ -124,6 +131,8 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
             assignCardsCommand.Parameters.AddWithValue("@userId", userId);
 
             await assignCardsCommand.ExecuteNonQueryAsync();
+
+            context.Response.Cookies.Delete("SECRET");
         if (rowsAffected > 0) {
             context.Response.Redirect("/login");
         } else {
@@ -267,6 +276,36 @@ async Task<bool> ValidateCredentialsAsync(HttpContext context, string username, 
     return false;
 }
 
+app.MapMethods("/secret", new[] { "GET", "POST" }, async (context) => 
+{
+    if (context.Request.Method == "GET") {
+        await context.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/secret.html"));
+    } else if (context.Request.Method == "POST") {
+        
+    }
+    else
+    {
+        context.Response.StatusCode = 405;
+    }
+});
+
+app.MapMethods("/{hash}", new[] { "GET" }, async (context) =>
+{
+    var hash = context.Request.RouteValues["hash"]?.ToString();
+    var hashes = await File.ReadAllLinesAsync("sha-secret");
+    var hashSet = new HashSet<string>(hashes);
+
+    if (hash != null) {
+        if (hashSet.Contains(hash))
+        {
+            context.Response.Cookies.Append("SECRET", "true");
+            context.Response.Redirect("/");
+        }
+    } else {
+        context.Response.StatusCode = 404;
+        await context.Response.WriteAsync("Invalid hash");
+    }
+});
 
 app.MapControllers();
 
