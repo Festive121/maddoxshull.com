@@ -440,6 +440,11 @@ body::-webkit-scrollbar {
     position: static;
     bottom: 0;
     left: 0;
+    opacity: 30%;
+}
+
+#secret {
+    opacity: 10%;
 }
 
 #create_account {

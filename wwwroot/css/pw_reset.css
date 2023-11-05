@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff; /* Light blue background */
+    background-image: linear-gradient(45deg, #f0f9ff 0%, #cfe7fd 50%, #a6c1fd 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pw-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.back {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Set font size */
+    position: relative;
+    top: 50%;
+}
+
+.back:hover {
+    background-color: #005f5f; /* Darker background on hover */
+}

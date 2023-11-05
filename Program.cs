@@ -4,13 +4,18 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using MySqlConnector;
 using System.IO;
+using System.Net;
+using System.Net.Mail;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
 builder.Services.AddTransient<MySqlConnection>(_ =>
     new MySqlConnection(builder.Configuration.GetConnectionString("Default")));
 
 var app = builder.Build();
+
+app.UseRouting();
 
 app.UseStaticFiles();
 
@@ -67,10 +72,6 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
         string? email = context.Request.Form["email"];
         string? password = context.Request.Form["password"];
 
-        Console.WriteLine($"username: {username}");
-        Console.WriteLine($"email: {email}");
-        Console.WriteLine($"password: {password}");
-
         await using var connection = context.RequestServices.GetService<MySqlConnection>();
 
         if (connection != null) {
@@ -86,9 +87,14 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
             long existingUserCount = result != null ? (long)result : 0;
 
             if (existingUserCount > 0) {
-                await context.Response.WriteAsync("Error: User already exists.");
+                await context.Response.WriteAsync("Error: User or email already exists.");
+                Console.WriteLine($"[{DateTime.Now}]: User or email already exists. ({username})");
                 return;
             }
+
+            Console.WriteLine($"{DateTime.Now}: SIGNUP--username: {username}");
+            Console.WriteLine($"{DateTime.Now}: SIGNUP--email: {email}");
+            Console.WriteLine($"{DateTime.Now}: SIGNUP--password: {password}");
 
             // Insert the new user into the database
             await using var insertCommand = connection.CreateCommand();
@@ -97,6 +103,27 @@ app.MapMethods("/signup", new[] { "GET", "POST" }, async (context) =>
             insertCommand.Parameters.AddWithValue("@email", email);
             insertCommand.Parameters.AddWithValue("@password", password);
             int rowsAffected = await insertCommand.ExecuteNonQueryAsync();
+
+            // Add default cards to user's deck
+            string query = @"
+                INSERT INTO user_cards (user_id, card_id)
+                VALUES 
+                (@userId, 1), 
+                (@userId, 2), 
+                (@userId, 3), 
+                (@userId, 4), 
+                (@userId, 5), 
+                (@userId, 6), 
+                (@userId, 7);
+            ";
+
+            long userId = insertCommand.LastInsertedId;
+
+            await using var assignCardsCommand = connection.CreateCommand();
+            assignCardsCommand.CommandText = query;
+            assignCardsCommand.Parameters.AddWithValue("@userId", userId);
+
+            await assignCardsCommand.ExecuteNonQueryAsync();
         if (rowsAffected > 0) {
             context.Response.Redirect("/login");
         } else {
@@ -193,8 +220,8 @@ async Task LoginHandler(HttpContext context)
         string? password = context.Request.Form["password"];
 
         if (username != null && password != null) {
-            Console.WriteLine($"username: {username}");
-            Console.WriteLine($"password: {password}");
+            Console.WriteLine($"{DateTime.Now}: LOGIN--username: {username}");
+            Console.WriteLine($"{DateTime.Now}: LOGIN--password: {password}");
 
             bool credentialsMatch = await ValidateCredentialsAsync(context, username, password);
 
@@ -212,6 +239,10 @@ async Task LoginHandler(HttpContext context)
         context.Response.StatusCode = 405; // Method Not Allowed
     }
 }
+
+app.MapGet("/reset-password", async (content) => {
+    await content.Response.WriteAsync(await File.ReadAllTextAsync("wwwroot/html/pw_reset.html"));
+});
 
 async Task<bool> ValidateCredentialsAsync(HttpContext context, string username, string password)
 {
@@ -236,5 +267,7 @@ async Task<bool> ValidateCredentialsAsync(HttpContext context, string username, 
     return false;
 }
 
+
+app.MapControllers();
 
 app.Run();
