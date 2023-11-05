@@ -2,4 +2,4 @@ RUN DOCKER MYSQL
 docker exec -it some-mysql mysql -u root --password=secret-sql-maddox
 
 CARD MAKER
-https://www.pokecard.net/
+https://card-pokemon.com/
